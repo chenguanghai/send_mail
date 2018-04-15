@@ -8,7 +8,7 @@ app=Flask(__name__)
 app.config['MAIL_SERVER']='smtp.qq.com'
 app.config['MAIL_PORT']=465
 app.config['MAIL_USERNAME']='954182252@qq.com'
-app.config['MAIL_PASSWORD']='elzzweuumbzqbbif'
+app.config['MAIL_PASSWORD']=''
 app.config['MAIL_USE_SSL']=True
 app.config['MAIL_DEFAULT_SENDER'] = 'ChenGuangHai<954182252@qq.com>'
 # 创建邮件连接对象
